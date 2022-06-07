@@ -14,11 +14,11 @@
 }
 .specialization-list{
     display: flex;
-    &:not(:last-child){
-        margin-right: 30px;
-    }
-}
 
+}
+.specalization-list__item:not(:last-child){
+    margin-right: 30px;
+  }
 .specalization-thumb::before{
     display: flex;
     content: "";
