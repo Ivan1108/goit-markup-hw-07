@@ -38,6 +38,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $--primary-text-color;
+    z-index: 1;
 }
 .thumb-one::before{
     content: "Десктопные приложения";
